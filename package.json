@@ -1,0 +1,23 @@
+{
+  "name": "ether-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "account.js",
+  "type": "module",
+  "scripts": {
+    "start": "node account.js",
+    "dev": "nodemon account.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.1",
+    "solc": "^0.8.27",
+    "web3-token": "^1.0.6"
+  }
+}
